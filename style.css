@@ -1,0 +1,471 @@
+html,body{
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header{
+    display:flex;
+    background-color: #94B3A6;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#logoDV{
+    zoom:20%;
+}
+
+
+.container-header{
+    display:flex;
+    background-color: #94B3A6;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 80px;
+}
+
+
+
+.top-navbar {
+    display: inline-block;
+    width:100%;
+    height:auto;
+    margin-left: 800px;
+}
+
+
+.top-navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 8px;
+}
+
+.top-navbar ul li:hover{
+    transition: 0.15s ease;
+    background-color: #def2ee;
+    border-radius: 15px;
+}
+
+
+.container-banner {
+    width: 100%;
+    height: 400px;
+    background-image: url('https://global.discourse-cdn.com/tnation/original/4X/1/d/6/1d655e6fb6b45ed6d63e58bb65aaddd77d17384f.jpeg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20pt;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*container-introduce...*/
+
+.container-introduce{
+    background-color:#FFF696;
+    width: 100%;
+    height: 450px;
+}
+
+.title-1{
+    font-size: 50px;
+    font-weight: 300;
+    display: block;
+    font-family: "Winky Rough", sans-serif;
+    margin-top: 0%;
+    padding-left: 50px;
+    padding-top: 0;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-1{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+/*Container-Health Introduce...*/
+
+.container-HealthIntroduce{
+    background-color:#FCF7BE;
+    width: 100%;
+    height: 390px;
+}
+
+.flexcontainer-2 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.article-2{
+    font-size: 25px ;
+    display: block;
+    font-style: inherit;
+    padding-left: 40px;
+
+}
+
+#girl-img img{
+    background-size: cover;
+    background-position: auto;
+    padding-top: 0px;
+    width: 243px;
+    height: 380px;
+}
+
+
+/*container-Healthsupport...*/
+
+.container-Healthsupport {
+    background-color: #88DFCF;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+
+.title-2 {
+  font-size: 28px;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.container-photo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.container-photo img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+#exercise {
+    width: 25%;
+    padding-left: 45px;
+    font-size: 25px;
+}
+
+#exercise img{
+    width: 100%;
+    height: 225px;
+}
+
+#diet {
+    width:25%;
+    font-size: 25px;
+}
+
+#diet img{
+    width: 100%;
+    height: auto;
+}
+
+#balance{
+    width:25%;
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+#balance img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*container-waterintroduction-title...*/
+#container-waterimportance{
+    background-color:#EEF9FB ;
+    width: auto;
+    height: auto;
+}
+
+
+
+/*container-waterintroduction-content...*/
+.container-waterintroduction-content {
+    background-color: #EEF9FB;
+    padding: 20px;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+}
+
+
+.water-text{
+    padding-left:120px;
+    font-size:x-large;
+    padding-top: 30px;
+    font-family: "Winky Rough", sans-serif ;
+}
+
+
+#Drinking-water{
+    height: auto;
+    padding-left: 20px;
+    zoom:60%
+}
+
+
+/*container-get-started...*/
+.container-get-started {
+    background-color: #AAE8F3;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.title-4 {
+    font-size: 50px ;
+    font-family: "Indie Flower", cursive;
+}
+
+
+.article-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.article-text ul:hover{
+    transition: 0.15s ease;
+    background-color: #77a6ca;
+    border-radius: 15px;
+}
+
+
+.article-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.article-text {
+    font-family: "Winky Rough", sans-serif;
+    padding-right: 230px;
+  
+}
+
+
+.article-text a{
+    font-family: "Winky Rough", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 40pt;
+}
+
+.article-text h3 {
+    font-size: 40pt;
+    margin: 10px;
+}
+
+
+.article-text p {
+    font-size: 20pt;
+    margin: 10px;
+}
+
+.article-text ul:hover{
+    transition: 0.15s ease;
+    background-color: #d5f0ea;
+    border-radius: 15px;
+}
+
+
+.article-image img {
+    height: 300px;
+}
+
+.article-image:hover{
+    transform: scale(1.02);
+}
+
+
+/*container-site-footer...*/
+.site-footer{
+    background-color: #94B3A6 ;
+    display:flex;
+    flex-direction: row;
+    width: auto;
+    height: 300px;
+}
+
+
+.container-footer{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.article-contact h3{
+    font-family: "Winky Rough", sans-serif;
+    font-size: 38px;
+    padding-left: 40px;
+}
+
+
+.article-contact p{
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+
+#CynergyHealth-logo{
+    padding: 8px;
+    height: 30px;
+    width: 30px;
+    zoom: 700%;
+}
+
+
+.social-contacts h3{
+    font-family: "Winky Rough", sans-serif;
+    font-size: 60px;
+    padding-left: 100px;
+    padding-top: 0;
+}
+
+
+#Instagram-logo {
+    width:50px;
+    padding: 10px;
+    padding-left: 200px;
+}
+
+
+#Facebook-logo{
+    width:50px;
+    padding: 10px;
+}
+
+
+#TikTok-logo{
+    width:50px;
+    padding: 10px;
+}
+
+.social-contacts img:hover{
+    transform: scale(1.08);
+}
+
+
+/*Home exercises and Gym Workout-Get-started-workout*/
+
+.Get-started-workout {
+    text-align: center;
+}
+
+.sector1 {
+    background-color: #C9E2E6;
+}
+
+.sector2 {
+    background-color: #AFDFE8;
+}
+
+.sector3 {
+    background-color: #93C6CF;
+}
+
+.sector4{
+    background-color: #93C6CF;
+}
+
+.sector5{
+    background-color: #AFDFE8;
+}
+
+.sector6{
+    background-color: #C9E2E6;
+}
+
+.title-homeexercise h2 {
+    font-family: "Winky Rough", sans-serif;
+    font-size: 30pt;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.title-gymexercise h2{
+    font-family: "Winky Rough", sans-serif;
+    font-size: 24pt;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.exercise-row {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 40px 20px;
+    flex-wrap: wrap;  
+}
+
+.exercise-box {
+    width: 450px;
+    text-align: center;
+}
+
+.exercise-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.exercise-box img:hover {
+    transform: scale(1.05);
+}
+
+.exercise-box p:hover{
+    transition: 0.15s ease;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.exercise-box p{
+    font-size: 25pt;
+}
+
+
+.exercise-box a {
+    display: block;
+    margin-top: 10px;
+    font-family: "Winky Rough", sans-serif;
+    font-size: 16pt;
+    color: black;
+    text-decoration: none;
+}
+
+
